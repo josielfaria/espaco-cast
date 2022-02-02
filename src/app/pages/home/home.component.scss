@@ -1,0 +1,13 @@
+.section {
+  min-height: 400px;
+}
+
+.section:nth-child(even) {
+  background-color: var(--color-4);
+  color: white;
+}
+
+.about{
+   background-image: url(../../../assets/teste.jpeg);
+   background-size: cover;
+}

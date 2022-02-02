@@ -1,0 +1,50 @@
+html {
+  background-color: var(--bg) !important;
+  background: var(--bg) !important;
+  overflow: hidden;
+}
+
+a,
+body {
+  color: var(--text-color) !important;
+}
+
+a:hover {
+  filter: brightness(80%);
+}
+
+nav {
+  background: var(--bg-nav) !important;
+}
+
+.cb1 {
+  background-color: var(--color-1);
+}
+.cb2 {
+  background-color: var(--color-1);
+}
+.cb3 {
+  background-color: var(--color-1);
+}
+.cb4 {
+  background-color: var(--color-1);
+}
+.cb5 {
+  background-color: var(--color-1);
+}
+
+.cc1 {
+  color: var(--color-1) !important;
+}
+.cc2 {
+  color: var(--color-1);
+}
+.cc3 {
+  color: var(--color-1);
+}
+.cc4 {
+  color: var(--color-1);
+}
+.cc5 {
+  color: var(--color-1);
+}

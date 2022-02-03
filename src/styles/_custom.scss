@@ -1,16 +1,21 @@
-html {
-  background-color: var(--bg) !important;
-  background: var(--bg) !important;
-  overflow: hidden;
+html,
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden !important;
+  font-family: YanoneKaffeesatz, Verdana, sans-serif !important;
+  background-color: var(--bg);
+  background: var(--bg);
 }
 
 a,
 body {
-  color: var(--text-color) !important;
+  color: var(--text-color);
 }
 
 a:hover {
-  filter: brightness(80%);
+  filter: brightness(90%);
 }
 
 nav {

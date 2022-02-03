@@ -7,6 +7,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SectionMainComponent } from './pages/home/section-main/section-main.component';
 import { SectionAboutComponent } from './pages/home/section-about/section-about.component';
+import { ButtonComponent } from './components/button/button.component';
+import { ButtonNavComponent } from './components/button-nav/button-nav.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SectionAboutComponent } from './pages/home/section-about/section-about.
     HomeComponent,
     NavbarComponent,
     SectionMainComponent,
-    SectionAboutComponent
+    SectionAboutComponent,
+    ButtonComponent,
+    ButtonNavComponent
   ],
   imports: [
     BrowserModule,

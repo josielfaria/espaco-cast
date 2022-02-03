@@ -1,4 +1,14 @@
-<nav class="navbar">
-  <a class="navbar-brand cc1" href="#">Navbar</a>
-</nav>
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
 
+    <a class="navbar-brand cc1" href="#">Brand</a>
+
+    <div class="collapse navbar-collapse">
+      <div class="navbar-nav ml-auto">
+        <div *ngFor="let menu of listMenu" class="mr-5">
+          <app-button-nav [text]="menu.name" [link]="menu.link"></app-button-nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

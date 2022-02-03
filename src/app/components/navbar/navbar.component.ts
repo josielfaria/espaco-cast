@@ -5,18 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent {
 
   listMenu = [
     { name: 'Home', link: '/home' },
-    { name: 'Sobre Nós', link: '/home' },
-    { name: 'Serviços', link: '/home' },
-    { name: 'Contato', link: '/home' },
+    { name: 'Sobre Nós', link: '/about' },
+    { name: 'Serviços', link: '/service' },
+    { name: 'Contato', link: '/contact' },
   ];
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

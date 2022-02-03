@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ButtonNavComponent implements OnInit {
 
   @Input() text: string = 'Button Nav';
-  @Input() link: string = '/home';
+  @Input() link: string = '#home';
 
   constructor() { }
 

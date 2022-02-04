@@ -2,7 +2,16 @@
   font-size: 40px;
   padding: 1rem;
   text-align: center;
-  background-image: url(../../../assets/underlined-title.png);
+}
+
+.title-bkg-white {
+  background-image: url(../../../assets/underlined-title-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-bkg-black {
+  background-image: url(../../../assets/underlined-title-black.png);
   background-repeat: no-repeat;
   background-position: center;
 }

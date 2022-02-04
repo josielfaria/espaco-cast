@@ -2,4 +2,10 @@
 
   <app-title [title]="title" [white]="true"></app-title>
 
+  <div class="row d-flex justify-content-between">
+    <app-about-item *ngFor="let item of itemsAbout; let index = index" [text]="item.text"
+      [image]="item.image" [number]="index" [ngClass]="index%2 === 0 ? 'col-md-6 divider' : 'col-md-6'">
+    </app-about-item>
+  </div>
+  
 </section>

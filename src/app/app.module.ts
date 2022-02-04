@@ -18,6 +18,7 @@ import { NotificationComponent } from './components/notification/notification.co
 import { AgmCoreModule } from '@agm/core';
 import { MapsComponent } from './components/maps/maps.component';
 import { TitleComponent } from './components/title/title.component';
+import { AboutItemComponent } from './components/about-item/about-item.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { TitleComponent } from './components/title/title.component';
     ContactInfosComponent,
     NotificationComponent,
     MapsComponent,
-    TitleComponent
+    TitleComponent,
+    AboutItemComponent
   ],
   imports: [
     BrowserModule,

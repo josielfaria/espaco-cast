@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MarkersMapsModel } from 'src/app/models/markers-maps.model';
 
 @Component({
   selector: 'app-maps',
@@ -8,11 +9,20 @@ import { Component } from '@angular/core';
 export class MapsComponent {
 
   // google maps zoom level
-  zoom: number = 8;
+  zoom: number = 19;
 
   // initial center position for the map
-  lat: number = 51.673858;
-  lng: number = 7.815982;
+  lat: number = -15.878615;
+  lng: number = -48.020179;
+
+  markers: any[] = [
+    {
+      lat: -15.878615,
+      lng: -48.020179,
+      label: '',
+      draggable: false
+    }
+  ]
 
   clickedMarker(label: string, index: number) {
     console.log(`clicked the marker: ${label || index}`)
@@ -27,28 +37,8 @@ export class MapsComponent {
     });
   }
 
-  markerDragEnd(m: any, $event: any) {
+  markerDragEnd(m: MarkersMapsModel, $event: any) {
     console.log('dragEnd', m, $event);
   }
 
-  markers: any[] = [
-    {
-      lat: 51.673858,
-      lng: 7.815982,
-      label: 'A',
-      draggable: true
-    },
-    {
-      lat: 51.373858,
-      lng: 7.215982,
-      label: 'B',
-      draggable: false
-    },
-    {
-      lat: 51.723858,
-      lng: 7.895982,
-      label: 'C',
-      draggable: true
-    }
-  ]
 }

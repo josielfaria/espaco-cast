@@ -9,3 +9,13 @@ agm-map {
 a {
   color: darkblue;
 }
+
+.label-content {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--color-4);
+  background-color: white;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+}

@@ -1,1 +1,4 @@
-<button class="btn button">{{ text }}</button>
+<button [type]="config.type" class="btn button" [ngClass]="{'cc1': config.color === 'white'}">
+  <span *ngIf="!config.loading">{{ config.text }} </span>
+  <span *ngIf="config.loading">loading</span>
+</button>

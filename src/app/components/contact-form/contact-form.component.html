@@ -1,0 +1,41 @@
+<div>
+  <div class="title-box-2">
+    <h5 class="title-left">
+      Nos envie um email
+    </h5>
+  </div>
+  <div>
+    <form action="/" method="get" name="form" target="_blank" class="php-email-form" (submit)="sendEmail($event)">
+      <div class="row">
+        <div class="col-md-12 mb-3">
+          <div class="form-group box">
+            <input type="text" name="user_name" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+        </div>
+        <div class="col-md-12 mb-3">
+          <div class="form-group box">
+            <input type="email" class="form-control" name="user_email" id="email" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="col-md-12 mb-3">
+          <div class="form-group box">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group box">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+        </div>
+        <div class="col-md-12 text-center my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>
+        <div class="col-md-12 text-center">
+          <app-button [config]="configButton"></app-button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

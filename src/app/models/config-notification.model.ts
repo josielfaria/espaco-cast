@@ -1,4 +1,4 @@
-export class ConfigNotification {
+export class ConfigNotificationModel {
   // TYPES: secondary  success  danger  warning  info  light  dark  message: string;
   type: string; 
   message: string;

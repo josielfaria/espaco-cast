@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ConfigButton } from 'src/app/models/config-button.model';
+import { ConfigButtonModel } from 'src/app/models/config-button.model';
 
 @Component({
   selector: 'app-button',
@@ -8,6 +8,6 @@ import { ConfigButton } from 'src/app/models/config-button.model';
 })
 export class ButtonComponent {
 
-  @Input() config: ConfigButton = { text: 'Enviar', color: 'white', type: 'button', loading: false };
+  @Input() config: ConfigButtonModel = { text: 'Enviar', color: 'white', type: 'button', loading: false };
 
 }

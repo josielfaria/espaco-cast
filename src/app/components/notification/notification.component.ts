@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ConfigNotification } from 'src/app/models/config-notification.model';
+import { ConfigNotificationModel } from 'src/app/models/config-notification.model';
 import { NotificationService } from 'src/app/services/notification.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { NotificationService } from 'src/app/services/notification.service';
   styleUrls: ['./notification.component.scss']
 })
 export class NotificationComponent implements OnInit {
-  config: ConfigNotification = { type: 'success', message: 'Sucesso!' };
+  config: ConfigNotificationModel = { type: 'success', message: 'Sucesso!' };
 
   constructor(private notificationService: NotificationService) { }
 

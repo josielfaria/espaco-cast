@@ -15,6 +15,8 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { ContactInfosComponent } from './components/contact-infos/contact-infos.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NotificationComponent } from './components/notification/notification.component';
+import { AgmCoreModule } from '@agm/core';
+import { MapsComponent } from './components/maps/maps.component';
 
 @NgModule({
   declarations: [
@@ -29,13 +31,19 @@ import { NotificationComponent } from './components/notification/notification.co
     SectionContactComponent,
     ContactFormComponent,
     ContactInfosComponent,
-    NotificationComponent
+    NotificationComponent,
+    MapsComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    AgmCoreModule.forRoot({
+      // TODO: please get your own API key here:
+      // https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en
+      apiKey: 'AIzaSyAfazUFr3fTKSw0ETRmvA0Iaqhwc5A7E_k'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ConfigButton } from 'src/app/models/config-button.model';
+import { ConfigButtonModel } from 'src/app/models/config-button.model';
 import { SendEmailService } from 'src/app/services/send-email.service';
 import { EmailJSResponseStatus } from '@emailjs/browser';
 import { NotificationService } from 'src/app/services/notification.service';
@@ -11,7 +11,7 @@ import { NotificationService } from 'src/app/services/notification.service';
 })
 export class ContactFormComponent {
 
-  configButton: ConfigButton = { text: 'Enviar', color: 'white', type: 'submit', loading: false };
+  configButton: ConfigButtonModel = { text: 'Enviar', color: 'white', type: 'submit', loading: false };
 
   constructor(private emailService: SendEmailService, private notificationService: NotificationService) { }
 

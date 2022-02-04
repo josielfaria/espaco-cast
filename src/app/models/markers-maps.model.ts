@@ -1,8 +1,8 @@
-export class ConfigButtonModel {
-  text: string;
-  color: string;
-  type: string;
-  loading: boolean;
+export class MarkersMapsModel {
+  lat: number;
+  lng: number;
+  label?: string;
+  draggable: boolean;
 
   constructor(text: string, color: string, type: string, loading: boolean) {
     this.text = text;

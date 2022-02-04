@@ -8,3 +8,9 @@
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, var(--color-2), var(--color-3));
 }
+
+.button:hover {
+  color: var(--color-2);
+  background-color: rgba(51, 51, 247, 0.1);
+  transform: scale(1.1);
+}

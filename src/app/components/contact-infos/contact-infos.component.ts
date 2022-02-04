@@ -1,15 +1,23 @@
 import { Component, OnInit } from '@angular/core';
+import { ContactInfosModel } from 'src/app/models/contact-infos.model';
 
 @Component({
   selector: 'app-contact-infos',
   templateUrl: './contact-infos.component.html',
   styleUrls: ['./contact-infos.component.scss']
 })
-export class ContactInfosComponent implements OnInit {
+export class ContactInfosComponent {
+
+  infos: Array<ContactInfosModel> = [
+    { icon: 'map', text: 'QL7 Conjunto B, Lote 12, 58 - Riacho Fundo I, DF' },
+    { icon: 'tel', text: '(617) 557-0089' },
+    { icon: 'email', text: 'contact@example.com' }
+  ];
 
   constructor() { }
 
-  ngOnInit(): void {
+  getIconUrl(iconName: string): string {
+    return `../../../assets/icons/${iconName}.png`;
   }
 
 }

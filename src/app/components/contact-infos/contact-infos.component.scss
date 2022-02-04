@@ -1,0 +1,13 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    height: 50px;
+  }
+
+  .icon-info > img {
+    margin-right: .5rem;
+    min-width: 28px;
+  }
+}

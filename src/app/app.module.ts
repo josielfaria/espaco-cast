@@ -17,6 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NotificationComponent } from './components/notification/notification.component';
 import { AgmCoreModule } from '@agm/core';
 import { MapsComponent } from './components/maps/maps.component';
+import { TitleComponent } from './components/title/title.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MapsComponent } from './components/maps/maps.component';
     ContactFormComponent,
     ContactInfosComponent,
     NotificationComponent,
-    MapsComponent
+    MapsComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
 <button [type]="config.type" class="btn button" [ngClass]="{'cc1': config.color === 'white'}">
   <span *ngIf="!config.loading">{{ config.text }} </span>
-  <span *ngIf="config.loading">loading</span>
+  <span *ngIf="config.loading">Enviando..</span>
 </button>

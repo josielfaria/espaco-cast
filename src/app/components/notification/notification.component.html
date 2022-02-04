@@ -1,1 +1,1 @@
-<p>notification works!</p>
+<div *ngIf="config.show" [className]="getClass()" role="alert">{{ config.message }}</div>

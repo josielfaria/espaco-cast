@@ -1,0 +1,12 @@
+<div class="card" style="width: 18rem;">
+  <p class="title text-center cc4">{{ title }}</p>
+  <div  class="image">
+    <img [src]="image" class="card-img" alt="...">
+  </div>
+  <div class="card-body">
+    <p class="card-text cc4" *ngFor="let info of infos"> {{ info }} </p>
+  </div>
+  <div class="container-price">
+    <p class="text-center">199</p>
+  </div>
+</div>

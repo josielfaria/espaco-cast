@@ -9,6 +9,7 @@ import { SectionMainComponent } from './pages/home/section-main/section-main.com
 import { SectionAboutComponent } from './pages/home/section-about/section-about.component';
 import { ButtonComponent } from './components/button/button.component';
 import { ButtonNavComponent } from './components/button-nav/button-nav.component';
+import { CardProductComponent } from './card-product/card-product.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ButtonNavComponent } from './components/button-nav/button-nav.component
     SectionMainComponent,
     SectionAboutComponent,
     ButtonComponent,
-    ButtonNavComponent
+    ButtonNavComponent,
+    CardProductComponent
   ],
   imports: [
     BrowserModule,

@@ -3,11 +3,11 @@
 }
 
 .section:nth-child(even) {
-  background-color: var(--color-4);
+  background-color: var(--color-6);
   color: white;
 }
 
 .about{
-   background-image: url(../../../assets/teste.jpeg);
+  //  background-image: url(../../../assets/teste.jpeg);
    background-size: cover;
 }

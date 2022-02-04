@@ -6,6 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./card-product.component.scss']
 })
 export class CardProductComponent {
+  
   @Input() title: string = 'Título';
   @Input() image: string = "../../assets/default-product.png";
   @Input() infos: Array<string> = ["Informação 1", "Informação 2", "Informação 3"];

@@ -1,0 +1,7 @@
+<app-title [title]="title" [white]="false"></app-title>
+
+<div class="row">
+  <app-card-product class="col-md-4 d-flex justify-content-center" *ngFor="let item of listServices"
+    [title]="item.title" [image]="item.image" [infos]="item.infos" [price]="item.price">
+  </app-card-product>
+</div>

@@ -9,7 +9,7 @@ import { SectionMainComponent } from './pages/home/section-main/section-main.com
 import { SectionAboutComponent } from './pages/home/section-about/section-about.component';
 import { ButtonComponent } from './components/button/button.component';
 import { ButtonNavComponent } from './components/button-nav/button-nav.component';
-import { CardProductComponent } from './card-product/card-product.component';
+import { CardProductComponent } from './components/card-product/card-product.component';
 import { SectionContactComponent } from './pages/home/section-contact/section-contact.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { ContactInfosComponent } from './components/contact-infos/contact-infos.component';
@@ -19,6 +19,7 @@ import { AgmCoreModule } from '@agm/core';
 import { MapsComponent } from './components/maps/maps.component';
 import { TitleComponent } from './components/title/title.component';
 import { AboutItemComponent } from './components/about-item/about-item.component';
+import { SectionServicesComponent } from './pages/home/section-services/section-services.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AboutItemComponent } from './components/about-item/about-item.component
     NotificationComponent,
     MapsComponent,
     TitleComponent,
-    AboutItemComponent
+    AboutItemComponent,
+    SectionServicesComponent
   ],
   imports: [
     BrowserModule,

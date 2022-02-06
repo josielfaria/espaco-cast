@@ -1,0 +1,19 @@
+.section-main > .background {
+  height: 100vh;
+  position: relative;
+  background-image: url("../../../../assets/images/estudio_background_provisorio.jpg");
+}
+
+.title-main{
+  font-size: 70px;
+}
+
+.effect-main {
+  position: absolute ;
+  top: 200px;
+  width: 100px;
+  height: 600px;
+  transform: rotate(45deg);
+  box-sizing: border-box;
+  background-color: rgba(61, 61, 61, 0.5);
+}

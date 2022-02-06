@@ -6,6 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./section-main.component.scss']
 })
 export class SectionMainComponent  {
-
+  title = "EspaçoCast"
 
 }

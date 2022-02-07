@@ -20,6 +20,7 @@ import { MapsComponent } from './components/maps/maps.component';
 import { TitleComponent } from './components/title/title.component';
 import { AboutItemComponent } from './components/about-item/about-item.component';
 import { SectionServicesComponent } from './pages/home/section-services/section-services.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -41,9 +42,10 @@ import { SectionServicesComponent } from './pages/home/section-services/section-
     SectionServicesComponent
   ],
   imports: [
-    BrowserModule,
-    HttpClientModule,
     AppRoutingModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
     NgbModule,
     AgmCoreModule.forRoot({
       // TODO: please get your own API key here:

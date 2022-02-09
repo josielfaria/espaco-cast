@@ -1,11 +1,9 @@
 import { Component, Input } from '@angular/core';
-import { animationZoomIn } from 'src/app/animations/about.animation';
 
 @Component({
   selector: 'app-about-item',
   templateUrl: './about-item.component.html',
-  styleUrls: ['./about-item.component.scss'],
-  animations: [animationZoomIn]
+  styleUrls: ['./about-item.component.scss']
 })
 export class AboutItemComponent {
 

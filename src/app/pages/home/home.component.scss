@@ -20,7 +20,8 @@
     margin: 0;
     margin-top: 2rem;
   }
-
-  .chev-down {
+  
+  .chev-down > img {
+    animation: pulse 2s infinite;
   }
 }

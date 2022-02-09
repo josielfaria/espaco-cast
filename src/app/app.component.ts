@@ -10,6 +10,9 @@ export class AppComponent implements OnInit {
   title = 'espaco-cast';
 
   ngOnInit() {
-    AOS.init();
+    AOS.init({
+      duration: 1000,
+      once: true // Dont repeat animation
+    });
   }
 }

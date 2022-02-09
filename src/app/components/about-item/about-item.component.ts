@@ -7,6 +7,9 @@ import { Component, Input } from '@angular/core';
 })
 export class AboutItemComponent {
 
+  durationItemLeft = 750;
+  durationItemRight = 1500;
+
   @Input() text = 'Sem texto!';
   @Input() image = '../../../assets/default-product.png';
   @Input() number = 0;

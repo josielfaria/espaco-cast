@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
+
+  scrolling: boolean = false;
+
+  @HostListener('window:scroll', ['$event']) onScrollEvent($event: any) {
+    $event.target['scrollingElement'].scrollTop > 100 ? this.scrolling = true : this.scrolling = false;
+  }
 
   listMenu = [
     { name: 'Home', link: '#home' },

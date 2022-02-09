@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent {
 
   listMenu = [
-    { name: 'Home', link: '/home' },
-    { name: 'Sobre Nós', link: '/about' },
-    { name: 'Serviços', link: '/service' },
-    { name: 'Contato', link: '/contact' },
+    { name: 'Home', link: '#home' },
+    { name: 'Sobre Nós', link: '#about' },
+    { name: 'Serviços', link: '#service' },
+    { name: 'Contato', link: '#contact' },
   ];
 
 }

@@ -2,7 +2,7 @@ agm-map {
   height: 205px;
 
   ::ng-deep > div {
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
   }
 }
@@ -13,6 +13,6 @@ agm-map {
   color: var(--color-4);
   background-color: white;
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 10px;
   text-align: center;
 }

@@ -5,14 +5,9 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './button-nav.component.html',
   styleUrls: ['./button-nav.component.scss']
 })
-export class ButtonNavComponent implements OnInit {
+export class ButtonNavComponent {
 
   @Input() text: string = 'Button Nav';
-  @Input() link: string = '#home';
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  @Input() link: string = '#home';  
 
 }

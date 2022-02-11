@@ -16,7 +16,7 @@ export class NavbarComponent {
   listMenu = [
     { name: 'Home', link: '#home' },
     { name: 'Sobre Nós', link: '#about' },
-    { name: 'Serviços', link: '#service' },
+    { name: 'Serviços', link: '#services' },
     { name: 'Contato', link: '#contact' },
   ];
 

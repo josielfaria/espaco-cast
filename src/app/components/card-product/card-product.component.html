@@ -1,12 +1,12 @@
 <div class="card box" style="width: 18rem;">
   <p class="title text-center cc4 box">{{ title }}</p>
-  <div  class="image box">
+  <div class="image box">
     <img [src]="image" class="card-img" alt="...">
   </div>
   <div class="card-body">
     <p class="card-text cc4" *ngFor="let info of infos"> {{ info }} </p>
   </div>
   <div class="container-price">
-    <p class="text-center">199</p>
+    <p class="text-center d-flex justify-content-center align-items-center">{{ price | currency:'BRL':true}}</p>
   </div>
 </div>

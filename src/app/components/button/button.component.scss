@@ -1,12 +1,10 @@
 .button {
   min-width: 100px;
   background-color: transparent;
-  font-size: 24px;
-  border: 4em solid;
-  border-width: 5px;
-  border-radius: 10px;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(to right, var(--color-2), var(--color-3));
+  font-size: 20px;
+  background-image: url(../../../assets/images/auxiliary/button.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .button:hover {

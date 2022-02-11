@@ -10,6 +10,10 @@
   background-color: var(--color-1);
 }
 
+.card-imag {
+  background-size: cover;
+}
+
 .image::before {
   content: " ";
   display: block;
@@ -26,7 +30,7 @@
   margin-left: auto;
   font-size: 1.2em;
   font-family: "Roboto", sans-serif;
-  background-image: url(../../../assets/price-background.svg);
+  background-image: url(../../../assets/images/auxiliary/price-background.svg);
   background-size: cover;
 
   p {

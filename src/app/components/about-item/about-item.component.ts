@@ -11,6 +11,6 @@ export class AboutItemComponent {
   durationItemRight = 1500;
 
   @Input() text = 'Sem texto!';
-  @Input() image = '../../../assets/default-product.png';
+  @Input() image = '../../../assets/images/default/default-product.svg';
   @Input() number = 0;
 }

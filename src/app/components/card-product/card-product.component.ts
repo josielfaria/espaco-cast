@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
 export class CardProductComponent {
   
   @Input() title: string = 'Título';
-  @Input() image: string = "../../assets/default-product.png";
+  @Input() image: string = "../../assets/images/default/default-product.svg";
   @Input() infos: Array<string> = ["Informação 1", "Informação 2", "Informação 3"];
   @Input() price: number = 120.20;
 

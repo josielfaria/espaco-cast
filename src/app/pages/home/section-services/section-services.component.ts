@@ -11,19 +11,19 @@ export class SectionServicesComponent {
   listServices = [
     {
       title: 'Título 1',
-      image: "../../assets/default-product.png",
+      image: "../../assets/images/default/default-product.svg",
       infos: ["Informação 1", "Informação 2", "Informação 3"],
       price: 120.55
     },
     {
       title: 'Título 2',
-      image: "../../assets/default-product.png",
+      image: "../../assets/images/default/default-product.svg",
       infos: ["Informação 1", "Informação 2", "Informação 3"],
       price: 120.55
     },
     {
       title: 'Título 2',
-      image: "../../assets/default-product.png",
+      image: "../../assets/images/default/default-product.svg",
       infos: ["Informação 1", "Informação 2", "Informação 3"],
       price: 120.55
     }
